@@ -21,11 +21,6 @@ p {
     width: 100%;
   }
 
-.parallax img {
-  display: block;
-  transform: translate3d(-50%, 124px, 0px);
-}
-
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
