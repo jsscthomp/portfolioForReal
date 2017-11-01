@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile": "node-sass -rw assets/scss -o assets/css",
+    "watch": "npm run scss-compile"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/jsscthomp/portfolioForReal/issues"
   },
-  "homepage": "https://github.com/jsscthomp/portfolioForReal#readme"
+  "homepage": "https://github.com/jsscthomp/portfolioForReal#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2",
+    "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {}
 }
