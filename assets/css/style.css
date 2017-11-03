@@ -24,7 +24,16 @@ p {
 .social {
   height: 60px;
   width: 60px;
-  list-style: inline-block;
+  /* padding: 10px; */
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.list-inline {
+  display: inline-block;
 }
 
 @media only screen and (max-width : 992px) {
