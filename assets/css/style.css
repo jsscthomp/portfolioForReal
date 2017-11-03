@@ -21,6 +21,12 @@ p {
     width: 100%;
   }
 
+.social {
+  height: 60px;
+  width: 60px;
+  list-style: inline-block;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -40,8 +46,8 @@ p {
 .icon-block {
   padding: 0 15px;
 }
-.icon-block .material-icons {
-  font-size: inherit;
+.icon-block img {
+  height: 10%;
 }
 
 footer.page-footer {
