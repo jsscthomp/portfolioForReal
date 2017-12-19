@@ -3,8 +3,27 @@ nav .brand-logo {
   color: #444;
 }
 
+#girlyLogo {
+  height: 80px;
+  margin-top: 10px;
+
+}
+
+.girlydev {
+  text-align: center;
+  height: 250px;
+}
+
 p {
   line-height: 2rem;
+}
+
+.jt {
+  font-family: 'Comfortaa', cursive;  
+}
+
+.girl {
+  font-family: 'Satisfy', cursive;
 }
 
 .button-collapse {
@@ -17,7 +36,7 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
   }
 
